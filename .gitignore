@@ -1,0 +1,47 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+.idea/
+.vscode/
+
+# Secrets — never commit these
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Our own local agent setup: this repo dogfoods the bootstrap, but its output
+# is per developer here, not part of the tool. Regenerate it with
+#   scripts/superpowers.sh -t <agents> .
+.agents/
+.claude/
+.mcp.json
+.codex/
+.cursor/
+.devin/
+.windsurf/
+.github/agents/
+.github/hooks/
+.github/mcp.json
+.github/skills/
+.github/copilot-instructions.md
+CLAUDE.md
+AGENTS.md
+GEMINI.md
+.gemini/
+.security-audit/
+# JSONC originals kept by the JSON merge
+*.bak
+
+# GitHub wiki pages: pushed to the separate <repo>.wiki.git, not this repo
+wiki/
+
+# Scratch: plan workspaces (ledgers, briefs), logs
+docs/superpowers/*
+.superpowers/
+*.log
+tmp/

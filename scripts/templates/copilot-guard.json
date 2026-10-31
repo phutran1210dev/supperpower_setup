@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "hooks": {
+    "preToolUse": [
+      {
+        "type": "command",
+        "command": "perl @GUARD@ copilot",
+        "bash": "perl @GUARD@ copilot",
+        "powershell": "perl @GUARD@ copilot",
+        "cwd": ".",
+        "timeoutSec": 10
+      }
+    ]
+  }
+}

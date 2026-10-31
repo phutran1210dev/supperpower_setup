@@ -1,0 +1,7 @@
+# Managed by the Superpowers bootstrap: /release-audit for Gemini CLI.
+description = "Pre-release security audit (staging, UAT or prod) with the security-audit skill"
+prompt = """
+Read .agents/skills/release-audit/SKILL.md in full and follow it exactly.
+
+Arguments: {{args}}
+"""

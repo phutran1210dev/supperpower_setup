@@ -1,0 +1,4 @@
+# Security audit reports from /release-audit: local only, never committed.
+# Managed by the Superpowers bootstrap.
+*
+!.gitignore
